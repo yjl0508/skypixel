@@ -1,0 +1,115 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-size: 14px;
+}
+body {
+	background: transparent;
+	line-height: 1;
+	font-family: Open Sans,Helvetica,Arial,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+
+/* 常用样式封装 */
+.font-12 {
+	font-size: 12px;
+}
+.font-14 {
+	font-size: 14px;
+}
+.font-16 {
+	font-size: 16px;
+}
+.font-18 {
+	font-size: 18px;
+}
+.font-32 {
+	font-size: 32px;
+}
+.font-20 {
+	font-size: 20px;
+}
+.font-24 {
+	font-size: 24px;
+}
+.color-999 {
+	color: #999999;
+}
+.color-fff {
+	color: #FFFFFF;
+}
+.color-rgba65 {
+	color: rgba(255,255,255,.65);
+}
+.color-rgba85 {
+	color: rgba(255,255,255,.85);
+}
+.bg-white {
+	background-color: white;
+}
+.bg-1088F2{
+	background-color: #1088F2;
+}
+.bg-rgba6 {
+	background-color: rgba(0,0,0,.6)
+}
+.bg-black {
+	background-color: black;
+}
+.bg-0d0d0d {
+	background-color: #0d0d0d;
+}
+/*  按钮封装 */
+.guanzhu-btn {
+	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+	width: auto;
+	padding: 10px 20px;
+	background-color: #1088f2;
+	border-radius: 5px;
+	font-weight: 600;
+}
+.guanzhu-btn:hover {
+	background-color: #1172c7;
+}
+
+.user-btn {
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 14px;
+}
+/* 模态框弹出封装 */
+.motaikuang-box {
+	position: relative;
+}
+.motaikuang-box.guoqi:hover .motaikuang {
+	display: block;
+}
+.motaikuang {
+	position: absolute;
+	padding: 8px 10px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	white-space: nowrap;
+	background: rgba(31,31,31,0.9);
+	border-radius: 5px;
+	width: auto;
+	top:-44px;
+	display:none;
+}
+.motaikuang-box .trangle {
+	border: 5px solid transparent;
+	border-top: 5px solid rgba(31,31,31,0.9);
+	position: absolute;
+	bottom: -10px;
+	right: 45%;
+}
